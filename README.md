@@ -4,8 +4,6 @@
 
 This repository was created to gather all the code used during the experimental activity for **TECNOLOGIES DEL MEDI AMBIENT I SOSTENIBILITAT - Curs 2025 - 2026**.
 
-*Made by Francesc Ortiz Rúbies, Joan Carné Rué and Adrià Amorós Sanchez.*
-
 
 
 
