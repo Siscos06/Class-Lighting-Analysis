@@ -2,15 +2,17 @@
 
 
 
-This repository created to gather all the code used during the experimental activity for **TECNOLOGIES DEL MEDI AMBIENT I SOSTENIBILITAT - Curs 2025 - 2026**. 
+This repository was created to gather all the code used during the experimental activity for **TECNOLOGIES DEL MEDI AMBIENT I SOSTENIBILITAT - Curs 2025 - 2026**.
 
-*Made by Francesc Ortiz Rúbies, Joan Carné Rué i Adrià Amorós Sanchez.*
+*Made by Francesc Ortiz Rúbies, Joan Carné Rué and Adrià Amorós Sanchez.*
+
+
 
 
 
 ### Contents
 
-Several coding languages and file have been used to perform different tasks, which are described down below:
+Several coding languages and files have been used to perform different tasks, which are described down below:
 
 
 
@@ -20,9 +22,27 @@ It mainly uses [*pandas*](https://pandas.pydata.org/about/) library to sort and 
 
 
 
-##### [OutilersRemovingSystem.py ](https://github.com/Siscos06/Class-Lighting-Analysis/blob/50222c68fe58a59c789be88eb1a01f6d828ce8cf/OutilersRemovingSystem.py)
 
-It mainly uses [*pandas*](https://pandas.pydata.org/about/) and [*numpy*](https://numpy.org/) libraries to analyze and remove outliers from a dataset using IQR and Modified Z Method.
+
+##### [OutilersRemovingSystem.py](https://github.com/Siscos06/Class-Lighting-Analysis/blob/50222c68fe58a59c789be88eb1a01f6d828ce8cf/OutilersRemovingSystem.py)
+
+It mainly uses the [*pandas*](https://pandas.pydata.org/about/) and [*numpy*](https://numpy.org/) libraries to analyze and remove outliers from a dataset using IQR and the Modified Z Method.
+
+
+
+
+
+##### [ZoneLightingQuality.m](https://github.com/Siscos06/Class-Lighting-Analysis/blob/510c2c105353326cb5443b486e49845945b87714/ZoneLightingQuality.m)
+
+It's built around MATLAB's figure function with a specific purpose in mind: create and customize a flat chart in which the cells are colored according to the EU indoor lighting conditions requirements.
+
+
+
+
+
+##### [*LightingPairComparison.m*](https://github.com/Siscos06/Class-Lighting-Analysis/blob/510c2c105353326cb5443b486e49845945b87714/LightingPairComparison.m)
+
+It uses MATLAB's figure function and basic matrix operations to create a chart in which two sets of data are compared. Specifically, the graph will only represent the highest values and color them according to the dataset to which the data point belongs to.
 
 
 
