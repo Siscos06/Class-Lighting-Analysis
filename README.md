@@ -46,5 +46,5 @@ It uses MATLAB's figure function and basic matrix operations to create a chart i
 
 
 
-*This code repository was solely made to perform an academic task, which means that once published it won't be updated not changed any other time.*
+*This code repository was solely made to perform an academic task, which means that once published, it won't be updated or changed any other time.*
 
