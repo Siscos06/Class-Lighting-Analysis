@@ -4,14 +4,6 @@ case3 = [328.6666667, 91.5, 161.5, 628.6666667; 466.5, 64.5, 171.6666667, 407.66
 case4 = [0.023333333, 0.023333333, 0.333333333, 7.266666667; 3.2, 2.6, 6.7, 22.75; 0.15, 0.113333333, 0.333333333, 7.40; 0.03, 0.04, 0.03, 0.016666667; 2.866666667, 0.03, 0.06, 0];
 
 
-%Codi generat amb AI: 
-%   https://www.perplexity.ai/
-%   https://chatgpt.com/
-%   Self-Hosted Falcon 3.3B amb Ollama i OpenWebUI
-%   https://duckduckgo.com/
-%   https://lumo.proton.me/
-%S'han usat per fer la matriu de colors, i s'han usat per corregir les unes
-%a les altres
 
 green=[0 1 0];
 red=[1 0 0];
@@ -31,10 +23,11 @@ C(case4 >= 400) = 3;
 fig = figure('Position', [100, 100, 800, 600]);
 surf(X, Y, Z, C, 'FaceAlpha', 0.7, 'FaceColor', 'interp', 'EdgeColor', 'none');
 colormap([red; yellow; green]);
-clim([0.5 3.5]);  % Adjust range for better interpolation
+clim([0.5 3.5]); 
 colorbar('Ticks', [1, 2, 3], 'TickLabels', {'<300 lx', '>=300 lx & <400 lx', '>=400 lx'});
 
 xlabel('X-axis');
 ylabel('Y-axis');
 zlabel('Illuminance (lx)');
+
 title('Surface Graphs');
